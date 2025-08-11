@@ -1,12 +1,11 @@
 package com.example.demo.repository.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Getter
 @Entity
@@ -26,7 +25,14 @@ public class User {
     private String specialty;
     private LocalDateTime createdAt;
 
-    public static User create(String username, String password, String name, Integer age, String job, String specialty) {
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
+    private List<Message> messages;
+
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "team_id")
+    private Team team;
+
+    public static User create(String username, String password, String name, Integer age, String job, String specialty ,Team team) {
         return new User(
                 null,
                 username,
@@ -35,7 +41,13 @@ public class User {
                 age,
                 job,
                 specialty,
-                LocalDateTime.now()
+                LocalDateTime.now(),
+                new ArrayList<>(),
+                team
         );
+    }
+
+    void addMessage(Message message) {
+        messages.add(message);
     }
 }

@@ -13,8 +13,9 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
+@Primary
 @RequiredArgsConstructor
-public class UserRepositoryCustom implements IUserRepositoryCustom {
+public class UserRepositoryImpl implements IUserRepositoryCustom {
 
     private final JPAQueryFactory jpaQueryFactory;
 

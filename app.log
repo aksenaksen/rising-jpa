@@ -1,0 +1,490 @@
+Initialized native services in: /Users/munjiung/.gradle/native
+Initialized jansi services in: /Users/munjiung/.gradle/native
+The client will now receive all logging from the daemon (pid: 37320). The daemon log file: /Users/munjiung/.gradle/daemon/8.14.2/daemon-37320.out.log
+Starting 28th build in daemon [uptime: 1 hrs 31 mins 10.529 secs, performance: 99%, GC rate: 0.00/s, heap usage: 4% of 512 MiB, non-heap usage: 28% of 384 MiB]
+Using 10 worker leases.
+Now considering [/Users/munjiung/Desktop/rising-camp-jpa/backend-base] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/munjiung/Desktop/rising-camp-jpa/backend-base/settings.gradle'.
+Projects loaded. Root project using build file '/Users/munjiung/Desktop/rising-camp-jpa/backend-base/build.gradle'.
+Included projects: [root project 'demo']
+
+> Configure project :
+Evaluating root project 'demo' using build file '/Users/munjiung/Desktop/rising-camp-jpa/backend-base/build.gradle'.
+Resolved plugin [id: 'java']
+Resolved plugin [id: 'org.springframework.boot', version: '3.5.3']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Applying dependency management to configuration 'annotationProcessor' in project 'demo'
+Applying dependency management to configuration 'apiElements' in project 'demo'
+Applying dependency management to configuration 'archives' in project 'demo'
+Applying dependency management to configuration 'bootArchives' in project 'demo'
+Applying dependency management to configuration 'compileClasspath' in project 'demo'
+Applying dependency management to configuration 'compileOnly' in project 'demo'
+Applying dependency management to configuration 'default' in project 'demo'
+Applying dependency management to configuration 'developmentOnly' in project 'demo'
+Applying dependency management to configuration 'implementation' in project 'demo'
+Applying dependency management to configuration 'mainSourceElements' in project 'demo'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'demo'
+Applying dependency management to configuration 'runtimeClasspath' in project 'demo'
+Applying dependency management to configuration 'runtimeElements' in project 'demo'
+Applying dependency management to configuration 'runtimeOnly' in project 'demo'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'demo'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'demo'
+Applying dependency management to configuration 'testCompileClasspath' in project 'demo'
+Applying dependency management to configuration 'testCompileOnly' in project 'demo'
+Applying dependency management to configuration 'testImplementation' in project 'demo'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'demo'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'demo'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'demo'
+All projects evaluated.
+Task name matched 'bootRun'
+Selected primary task 'bootRun' from project :
+Starting process 'command '/usr/libexec/java_home''. Working directory: /Users/munjiung/.gradle/daemon/8.14.2 Command: /usr/libexec/java_home -V
+Successfully started process 'command '/usr/libexec/java_home''
+Resolving global dependency management for project 'demo'
+Excluding [com.google.protobuf:protobuf-java]
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Tasks to be executed: [task ':compileJava', task ':processResources', task ':classes', task ':resolveMainClassName', task ':bootRun']
+Tasks that were excluded: []
+Resolve mutations for :compileJava (Thread[#3784,Execution worker,5,main]) started.
+:compileJava (Thread[#3784,Execution worker,5,main]) started.
+
+> Task :compileJava UP-TO-DATE
+Custom actions are attached to task ':compileJava'.
+Caching disabled for task ':compileJava' because:
+  Build cache is disabled
+Skipping task ':compileJava' as it is up-to-date.
+Resolve mutations for :processResources (Thread[#3784,Execution worker,5,main]) started.
+:processResources (Thread[#3784,Execution worker,5,main]) started.
+
+> Task :processResources UP-TO-DATE
+Caching disabled for task ':processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processResources' as it is up-to-date.
+Resolve mutations for :classes (Thread[#3784,Execution worker,5,main]) started.
+:classes (Thread[#3784,Execution worker,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :resolveMainClassName (Thread[#3784,Execution worker,5,main]) started.
+:resolveMainClassName (Thread[#3784,Execution worker,5,main]) started.
+
+> Task :resolveMainClassName UP-TO-DATE
+Caching disabled for task ':resolveMainClassName' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':resolveMainClassName' as it is up-to-date.
+Resolve mutations for :bootRun (Thread[#3784,Execution worker,5,main]) started.
+:bootRun (Thread[#3784,Execution worker,5,main]) started.
+
+> Task :bootRun FAILED
+Caching disabled for task ':bootRun' because:
+  Build cache is disabled
+Task ':bootRun' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+Starting process 'command '/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/bin/java''. Working directory: /Users/munjiung/Desktop/rising-camp-jpa/backend-base Command: /Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/bin/java -XX:TieredStopAtLevel=1 -Dfile.encoding=UTF-8 -Duser.country=KR -Duser.language=ko -Duser.variant -cp /Users/munjiung/Desktop/rising-camp-jpa/backend-base/build/classes/java/main:/Users/munjiung/Desktop/rising-camp-jpa/backend-base/build/resources/main:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-jpa/5.0.0/2a653852848dee41b967d3520be3339f0f92f1ea/querydsl-jpa-5.0.0-jakarta.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.mysql/mysql-connector-j/9.2.0/cc7bed59ccee3c47554aeb89e37c24d95a74bec3/mysql-connector-j-9.2.0.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.hibernate.orm/hibernate-core/6.6.18.Final/c3d150af4c341a7b07c75a8905bfbba895e73fbc/hibernate-core-6.6.18.Final.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/3.5.1/7d34c2d8c8bcd96f5ce3f012c2a88d682a86e14b/spring-data-jpa-3.5.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/6.2.8/30cd83452beef146187bee60a824fe3ae7197d85/spring-aspects-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-config/6.5.1/49e1411bc9d97faafcde42877614358a5357a3c7/spring-security-config-6.5.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-web/6.5.1/9255d45a0f69305ceae1fb770a774acdf805c485/spring-security-web-6.5.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/6.2.8/a98cbaba4b55b4fee2d752041130e2e0f7014b27/spring-webmvc-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/3.5.3/b03483a9d3c480d064c8380e2d78ea3593ca6cb8/spring-boot-autoconfigure-3.5.3.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/3.5.3/1b02976773afc2489df3c22000acaf83d0ada2b2/spring-boot-3.5.3.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-core/6.5.1/e7df1e6596b39b39f4a01000cab0318c0ed17ab0/spring-security-core-6.5.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/6.2.8/9db99fe5f92f587e8f2b26b34a7f42260169925a/spring-context-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/6.2.8/435fb310d5f464050b91ac3cb1a7f217a471e62e/spring-aop-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf-spring6/3.1.3.RELEASE/4b276ea2bd536a18e44b40ff1d9f4848965ff59c/thymeleaf-spring6-3.1.3.RELEASE.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/6.2.8/7b6a4ffb12639779721bc5adbc7f5ba80db72ff9/spring-web-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.querydsl/querydsl-core/5.1.0/be322c3fe98de8e7c204afb8860bfabd81a3bafd/querydsl-core-5.1.0.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/jakarta.annotation/jakarta.annotation-api/2.1.1/48b9bda22b091b1f48b13af03fe36db3be6e1ae3/jakarta.annotation-api-2.1.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/6.2.8/3bfe2a04c09ad1d7738b16e6e4636a7255be3af8/spring-orm-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/6.2.8/2927be130aa08d6513804a048eb6065ab5c51a1d/spring-jdbc-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/3.5.1/90bd3f9edcc3b98e0d49657f3f2152e933b42ae8/spring-data-commons-3.5.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/6.2.8/6b2eecf34f0810dd989f7e7bfa8fd8c86fe28dfb/spring-tx-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/6.2.8/9da1e690f343c30b6ed6eabd5f60ecc5dd0b225a/spring-beans-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/6.2.8/19e6618120fab6a572880675e1c0af676c7aa4ac/spring-expression-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/6.2.8/2caf1cef93252f5ef2b7f334b8b4d61f3aecad15/spring-core-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/2.4/e0666b825b796f85521f02360e77f4c92c5a7a07/snakeyaml-2.4.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.zaxxer/HikariCP/6.3.0/bebd113244c9d9926c6b792f28110ed6380cacc2/HikariCP-6.3.0.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/jakarta.persistence/jakarta.persistence-api/3.1.0/66901fa1c373c6aff65c13791cc11da72060a8d6/jakarta.persistence-api-3.1.0.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/jakarta.transaction/jakarta.transaction-api/2.0.1/51a520e3fae406abb84e2e1148e6746ce3f80a1a/jakarta.transaction-api-2.0.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.6.1.Final/886afbb445b4016a37c8960a7aef6ebd769ce7e5/jboss-logging-3.6.1.Final.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/7.0.3.Final/e183c4be8bb41d12e9f19b374e00c34a0a85f439/hibernate-commons-annotations-7.0.3.Final.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/io.smallrye/jandex/3.2.0/f17ad860f62a08487b9edabde608f8ac55c62fa7/jandex-3.2.0.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.7.0/e98374da1f2143ac8e6e0a95036994bb19137a3/classmate-1.7.0.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/net.bytebuddy/byte-buddy/1.17.6/8c70cbc6950b2ae5291a98d5003e06406d633803/byte-buddy-1.17.6.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-runtime/4.0.5/ca84c2a7169b5293e232b9d00d1e4e36d4c3914a/jaxb-runtime-4.0.5.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/jaxb-core/4.0.5/7b4b11ea5542eea4ad55e1080b23be436795b3/jaxb-core-4.0.5.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/jakarta.xml.bind/jakarta.xml.bind-api/4.0.2/6cd5a999b834b63238005b7144136379dc36cad2/jakarta.xml.bind-api-4.0.2.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/jakarta.inject/jakarta.inject-api/2.0.1/4c28afe1991a941d7702fe1362c365f0a8641d1e/jakarta.inject-api-2.0.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.antlr/antlr4-runtime/4.13.0/5a02e48521624faaf5ff4d99afc88b01686af655/antlr4-runtime-4.13.0.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.thymeleaf/thymeleaf/3.1.3.RELEASE/51474f2a90b282ee97dabcd159c7faf24790f373/thymeleaf-3.1.3.RELEASE.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.5.18/fc371f3fc97a639de2d67947cffb7518ec5e3d40/logback-classic-1.5.18.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-to-slf4j/2.24.3/da1143e2a2531ee1c2d90baa98eb50a28a39d5a7/log4j-to-slf4j-2.24.3.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/2.0.17/524cb6ccc2b68a57604750e1ab8b13b5a786a6aa/jul-to-slf4j-2.0.17.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/2.0.17/d9e58ac9c7779ba3bf8142aff6c830617a7fe60f/slf4j-api-2.0.17.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.9.24/9b5aeb0cea9f958b9c57fb80e62996e95a3e9379/aspectjweaver-1.9.24.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jsr310/2.19.1/e9df57105f3b0730040ad7f3a1b603684a3329f4/jackson-datatype-jsr310-2.19.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-parameter-names/2.19.1/133a9dc4ff2413035dc7ca8a9aa6a1da3667ddfb/jackson-module-parameter-names-2.19.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.19.1/37e4f0c5dba684e00137defdb04ad9df95920c44/jackson-annotations-2.19.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.19.1/6e5a8cb8a6cada322497cefb7726657d98aaee15/jackson-core-2.19.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.datatype/jackson-datatype-jdk8/2.19.1/eabbc99d0e146b1a7085fddd02568faf1d3b4ab1/jackson-datatype-jdk8-2.19.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.19.1/e8cb8e76faea3e0791165f5d3614fc45933b2ee0/jackson-databind-2.19.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/10.1.42/e47e420583a372feaece0dc9b8a9a63c4bfcd093/tomcat-embed-websocket-10.1.42.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/10.1.42/8906a203edef16fa6013635925bf9f5d1dbe5639/tomcat-embed-core-10.1.42.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/10.1.42/a82416ce2960c50ee8150c9229e058b826e070a8/tomcat-embed-el-10.1.42.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-observation/1.15.1/3d0a62a46350707984e3600297cc8e08c4722399/micrometer-observation-1.15.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.mysema.commons/mysema-commons-lang/0.2.4/d09c8489d54251a6c22fbce804bdd4a070557317/mysema-commons-lang-0.2.4.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jcl/6.2.8/b806d8d270a8eebaca56f6b4dae8f627460b0d4e/spring-jcl-6.2.8.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.eclipse.angus/angus-activation/2.0.2/41f1e0ddd157c856926ed149ab837d110955a9fc/angus-activation-2.0.2.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/jakarta.activation/jakarta.activation-api/2.1.3/fa165bd70cda600368eee31555222776a46b881f/jakarta.activation-api-2.1.3.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.springframework.security/spring-security-crypto/6.5.1/fb3f9675a194778207a497c658102f55f841b77e/spring-security-crypto-6.5.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.attoparser/attoparser/2.0.7.RELEASE/e5d0e988d9124139d645bb5872b24dfa23e283cc/attoparser-2.0.7.RELEASE.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.unbescape/unbescape/1.1.6.RELEASE/7b90360afb2b860e09e8347112800d12c12b2a13/unbescape-1.1.6.RELEASE.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/io.micrometer/micrometer-commons/1.15.1/43cbe2327f4e3f5cbfda6be64418c66b9b62f4ec/micrometer-commons-1.15.1.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.5.18/6c0375624f6f36b4e089e2488ba21334a11ef13f/logback-core-1.5.18.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.24.3/b02c125db8b6d295adf72ae6e71af5d83bce2370/log4j-api-2.24.3.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/org.glassfish.jaxb/txw2/4.0.5/f36a4ef12120a9bb06d766d6a0e54b144fd7ed98/txw2-4.0.5.jar:/Users/munjiung/.gradle/caches/modules-2/files-2.1/com.sun.istack/istack-commons-runtime/4.1.2/18ec117c85f3ba0ac65409136afa8e42bc74e739/istack-commons-runtime-4.1.2.jar com.example.demo.DemoApplication
+Successfully started process 'command '/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/bin/java''
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+[32m :: Spring Boot :: [39m              [2m (v3.5.3)[0;39m
+
+[2m2025-08-11T14:32:10.399+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mcom.example.demo.DemoApplication        [0;39m [2m:[0;39m Starting DemoApplication using Java 24.0.2 with PID 42212 (/Users/munjiung/Desktop/rising-camp-jpa/backend-base/build/classes/java/main started by munjiung in /Users/munjiung/Desktop/rising-camp-jpa/backend-base)
+[2m2025-08-11T14:32:10.399+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mcom.example.demo.DemoApplication        [0;39m [2m:[0;39m No active profile set, falling back to 1 default profile: "default"
+[2m2025-08-11T14:32:10.590+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[2m2025-08-11T14:32:10.614+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36m.s.d.r.c.RepositoryConfigurationDelegate[0;39m [2m:[0;39m Finished Spring Data repository scanning in 19 ms. Found 3 JPA repository interfaces.
+[2m2025-08-11T14:32:10.766+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.s.b.w.embedded.tomcat.TomcatWebServer [0;39m [2m:[0;39m Tomcat initialized with port 8080 (http)
+[2m2025-08-11T14:32:10.772+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.apache.catalina.core.StandardService  [0;39m [2m:[0;39m Starting service [Tomcat]
+[2m2025-08-11T14:32:10.772+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.apache.catalina.core.StandardEngine   [0;39m [2m:[0;39m Starting Servlet engine: [Apache Tomcat/10.1.42]
+[2m2025-08-11T14:32:10.786+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.a.c.c.C.[Tomcat].[localhost].[/]      [0;39m [2m:[0;39m Initializing Spring embedded WebApplicationContext
+[2m2025-08-11T14:32:10.786+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mw.s.c.ServletWebServerApplicationContext[0;39m [2m:[0;39m Root WebApplicationContext: initialization completed in 371 ms
+[2m2025-08-11T14:32:10.841+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.hibernate.jpa.internal.util.LogHelper [0;39m [2m:[0;39m HHH000204: Processing PersistenceUnitInfo [name: default]
+[2m2025-08-11T14:32:10.856+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.Version                   [0;39m [2m:[0;39m HHH000412: Hibernate ORM core version 6.6.18.Final
+[2m2025-08-11T14:32:10.865+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.h.c.internal.RegionFactoryInitiator   [0;39m [2m:[0;39m HHH000026: Second-level cache disabled
+[2m2025-08-11T14:32:10.944+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.s.o.j.p.SpringPersistenceUnitInfo     [0;39m [2m:[0;39m No LoadTimeWeaver setup: ignoring JPA class transformer
+[2m2025-08-11T14:32:10.955+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Starting...
+[2m2025-08-11T14:32:11.088+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mcom.zaxxer.hikari.pool.HikariPool       [0;39m [2m:[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@284c4f02
+[2m2025-08-11T14:32:11.089+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Start completed.
+[2m2025-08-11T14:32:11.118+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.orm.connections.pooling   [0;39m [2m:[0;39m HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+[2m2025-08-11T14:32:11.356+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.h.e.t.j.p.i.JtaPlatformInitiator      [0;39m [2m:[0;39m HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+[2m2025-08-11T14:32:11.360+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    alter table message 
+       drop 
+       foreign key FKb3y6etti1cfougkdr0qiiemgv
+Hibernate: 
+    alter table message 
+       drop 
+       foreign key FKb3y6etti1cfougkdr0qiiemgv
+[2m2025-08-11T14:32:11.570+09:00[0;39m [33m WARN[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.h.t.s.i.ExceptionHandlerLoggedImpl    [0;39m [2m:[0;39m GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table message 
+       drop 
+       foreign key FKb3y6etti1cfougkdr0qiiemgv" via JDBC [Table 'rising.message' doesn't exist]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table message 
+       drop 
+       foreign key FKb3y6etti1cfougkdr0qiiemgv" via JDBC [Table 'rising.message' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:479) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:245) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:218) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:186) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:156) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:116) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.3.jar:3.5.3]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[main/:na]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'rising.message' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	... 39 common frames omitted
+
+[2m2025-08-11T14:32:11.571+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    alter table user 
+       drop 
+       foreign key FKbmqm8c8m2aw1vgrij7h0od0ok
+Hibernate: 
+    alter table user 
+       drop 
+       foreign key FKbmqm8c8m2aw1vgrij7h0od0ok
+[2m2025-08-11T14:32:11.572+09:00[0;39m [33m WARN[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.h.t.s.i.ExceptionHandlerLoggedImpl    [0;39m [2m:[0;39m GenerationTarget encountered exception accepting command : Error executing DDL "
+    alter table user 
+       drop 
+       foreign key FKbmqm8c8m2aw1vgrij7h0od0ok" via JDBC [Table 'rising.user' doesn't exist]
+
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "
+    alter table user 
+       drop 
+       foreign key FKbmqm8c8m2aw1vgrij7h0od0ok" via JDBC [Table 'rising.user' doesn't exist]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:94) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlString(Helper.java:233) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.Helper.applySqlStrings(Helper.java:217) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.applyConstraintDropping(SchemaDropperImpl.java:479) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropConstraintsTablesSequences(SchemaDropperImpl.java:245) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.dropFromMetadata(SchemaDropperImpl.java:218) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.performDrop(SchemaDropperImpl.java:186) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:156) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.internal.SchemaDropperImpl.doDrop(SchemaDropperImpl.java:116) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:238) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:144) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at java.base/java.util.HashMap.forEach(HashMap.java:1430) ~[na:na]
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:141) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:324) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:463) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1517) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:66) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:390) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:419) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:400) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:366) ~[spring-orm-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207) ~[spring-beans-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:970) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.8.jar:6.2.8]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.3.jar:3.5.3]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.3.jar:3.5.3]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10) ~[main/:na]
+Caused by: java.sql.SQLSyntaxErrorException: Table 'rising.user' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:112) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:114) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:837) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:685) ~[mysql-connector-j-9.2.0.jar:9.2.0]
+	at com.zaxxer.hikari.pool.ProxyStatement.execute(ProxyStatement.java:95) ~[HikariCP-6.3.0.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.execute(HikariProxyStatement.java) ~[HikariCP-6.3.0.jar:na]
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:80) ~[hibernate-core-6.6.18.Final.jar:6.6.18.Final]
+	... 39 common frames omitted
+
+[2m2025-08-11T14:32:11.573+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    drop table if exists message
+Hibernate: 
+    drop table if exists message
+[2m2025-08-11T14:32:11.576+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    drop table if exists team
+Hibernate: 
+    drop table if exists team
+[2m2025-08-11T14:32:11.579+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    drop table if exists user
+Hibernate: 
+    drop table if exists user
+[2m2025-08-11T14:32:11.583+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    create table message (
+        user_id integer,
+        id bigint not null auto_increment,
+        content varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table message (
+        user_id integer,
+        id bigint not null auto_increment,
+        content varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+[2m2025-08-11T14:32:11.593+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    create table team (
+        id bigint not null auto_increment,
+        name varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table team (
+        id bigint not null auto_increment,
+        name varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+[2m2025-08-11T14:32:11.598+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    create table user (
+        age integer,
+        id integer not null auto_increment,
+        created_at datetime(6),
+        team_id bigint,
+        job varchar(255),
+        name varchar(255),
+        password varchar(255),
+        specialty varchar(255),
+        username varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+Hibernate: 
+    create table user (
+        age integer,
+        id integer not null auto_increment,
+        created_at datetime(6),
+        team_id bigint,
+        job varchar(255),
+        name varchar(255),
+        password varchar(255),
+        specialty varchar(255),
+        username varchar(255),
+        primary key (id)
+    ) engine=InnoDB
+[2m2025-08-11T14:32:11.603+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    alter table message 
+       add constraint FKb3y6etti1cfougkdr0qiiemgv 
+       foreign key (user_id) 
+       references user (id)
+Hibernate: 
+    alter table message 
+       add constraint FKb3y6etti1cfougkdr0qiiemgv 
+       foreign key (user_id) 
+       references user (id)
+[2m2025-08-11T14:32:11.613+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    alter table user 
+       add constraint FKbmqm8c8m2aw1vgrij7h0od0ok 
+       foreign key (team_id) 
+       references team (id)
+Hibernate: 
+    alter table user 
+       add constraint FKbmqm8c8m2aw1vgrij7h0od0ok 
+       foreign key (team_id) 
+       references team (id)
+[2m2025-08-11T14:32:11.626+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Initialized JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-08-11T14:32:11.741+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+Hibernate: 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+[2m2025-08-11T14:32:11.756+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+Hibernate: 
+    insert 
+    into
+        team
+        (name) 
+    values
+        (?)
+[2m2025-08-11T14:32:11.761+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    insert 
+    into
+        user
+        (age, created_at, job, name, password, specialty, team_id, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        user
+        (age, created_at, job, name, password, specialty, team_id, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+[2m2025-08-11T14:32:11.767+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    insert 
+    into
+        user
+        (age, created_at, job, name, password, specialty, team_id, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        user
+        (age, created_at, job, name, password, specialty, team_id, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+[2m2025-08-11T14:32:11.771+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    insert 
+    into
+        user
+        (age, created_at, job, name, password, specialty, team_id, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+Hibernate: 
+    insert 
+    into
+        user
+        (age, created_at, job, name, password, specialty, team_id, username) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?)
+[2m2025-08-11T14:32:11.795+09:00[0;39m [33m WARN[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mJpaBaseConfiguration$JpaWebConfiguration[0;39m [2m:[0;39m spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[2m2025-08-11T14:32:11.843+09:00[0;39m [33m WARN[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36m.s.s.UserDetailsServiceAutoConfiguration[0;39m [2m:[0;39m 
+
+Using generated security password: 9e58e033-20c2-417b-b8aa-2c64f5f48c49
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+[2m2025-08-11T14:32:11.845+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mr$InitializeUserDetailsManagerConfigurer[0;39m [2m:[0;39m Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+[2m2025-08-11T14:32:11.892+09:00[0;39m [33m WARN[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mion$DefaultTemplateResolverConfiguration[0;39m [2m:[0;39m Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+[2m2025-08-11T14:32:11.923+09:00[0;39m [33m WARN[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mConfigServletWebServerApplicationContext[0;39m [2m:[0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+[2m2025-08-11T14:32:11.924+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mj.LocalContainerEntityManagerFactoryBean[0;39m [2m:[0;39m Closing JPA EntityManagerFactory for persistence unit 'default'
+[2m2025-08-11T14:32:11.924+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    alter table message 
+       drop 
+       foreign key FKb3y6etti1cfougkdr0qiiemgv
+Hibernate: 
+    alter table message 
+       drop 
+       foreign key FKb3y6etti1cfougkdr0qiiemgv
+[2m2025-08-11T14:32:11.934+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    alter table user 
+       drop 
+       foreign key FKbmqm8c8m2aw1vgrij7h0od0ok
+Hibernate: 
+    alter table user 
+       drop 
+       foreign key FKbmqm8c8m2aw1vgrij7h0od0ok
+[2m2025-08-11T14:32:11.940+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    drop table if exists message
+Hibernate: 
+    drop table if exists message
+[2m2025-08-11T14:32:11.945+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    drop table if exists team
+Hibernate: 
+    drop table if exists team
+[2m2025-08-11T14:32:11.948+09:00[0;39m [32mDEBUG[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36morg.hibernate.SQL                       [0;39m [2m:[0;39m 
+    drop table if exists user
+Hibernate: 
+    drop table if exists user
+[2m2025-08-11T14:32:11.952+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown initiated...
+[2m2025-08-11T14:32:11.954+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mcom.zaxxer.hikari.HikariDataSource      [0;39m [2m:[0;39m HikariPool-1 - Shutdown completed.
+[2m2025-08-11T14:32:11.958+09:00[0;39m [32m INFO[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36m.s.b.a.l.ConditionEvaluationReportLogger[0;39m [2m:[0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+[2m2025-08-11T14:32:11.963+09:00[0;39m [31mERROR[0;39m [35m42212[0;39m [2m--- [demo] [           main] [0;39m[36mo.s.b.d.LoggingFailureAnalysisReporter  [0;39m [2m:[0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':bootRun'.
+> Process 'command '/Library/Java/JavaVirtualMachines/jdk-24.jdk/Contents/Home/bin/java'' finished with non-zero exit value 1
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2s
+4 actionable tasks: 1 executed, 3 up-to-date
+Watched directory hierarchies: [/Users/munjiung/Desktop/rising-camp-jpa/backend-base]
