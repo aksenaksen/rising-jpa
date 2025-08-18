@@ -1,13 +1,11 @@
-package com.example.demo.controller.post.dto;
+package com.example.demo.controller.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
-import lombok.AllArgsConstructor;
-import lombok.Getter;
+import lombok.Data;
 
-@Getter
-@AllArgsConstructor
+@Data
 public class PostCreateRequestDto {
     @NotBlank
     @Size(max = 20)

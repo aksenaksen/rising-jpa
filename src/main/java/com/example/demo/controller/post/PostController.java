@@ -4,12 +4,14 @@ import com.example.demo.controller.post.dto.PostCreateRequestDto;
 import com.example.demo.controller.post.dto.PostResponseDto;
 import com.example.demo.service.CommentService;
 import com.example.demo.service.PostService;
+import jakarta.validation.Valid;
 import lombok.AccessLevel;
 import lombok.RequiredArgsConstructor;
 import lombok.experimental.FieldDefaults;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -22,19 +24,21 @@ public class PostController {
     CommentService commentService;
 
     @GetMapping("/{id}")
-    public ResponseEntity<PostResponseDto> post(@PathVariable Integer id) {
+    @ResponseStatus(HttpStatus.OK)
+    public PostResponseDto post(@PathVariable Integer id) {
         PostResponseDto post = postService.findById(id);
-        return ResponseEntity.ok(post);
+        return post;
     }
 
     @GetMapping("")
-    public ResponseEntity<List<PostResponseDto>> posts() {
+    @ResponseStatus(HttpStatus.OK)
+    public List<PostResponseDto> posts() {
         List<PostResponseDto> posts = postService.findAll();
-        return ResponseEntity.ok(posts);
+        return posts;
     }
 
     @PostMapping("")
-    public ResponseEntity<PostResponseDto> create(@RequestBody PostCreateRequestDto request) {
+    public ResponseEntity<PostResponseDto> create(@Valid @RequestBody PostCreateRequestDto request) {
         PostResponseDto post = postService.save(request);
         return ResponseEntity.ok(post);
     }

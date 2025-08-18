@@ -7,8 +7,10 @@ import com.example.demo.repository.post.entity.Post;
 import com.example.demo.repository.user.UserRepository;
 import com.example.demo.repository.user.entity.User;
 import lombok.RequiredArgsConstructor;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.server.ResponseStatusException;
 
 import java.util.List;
 
@@ -46,13 +48,14 @@ public class PostService {
                 user
         );
         Post created = postRepository.save(post);
+
         return PostResponseDto.from(created);
     }
 
     @Transactional
     public void delete(Integer id) {
         Post post = postRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("게시글이 데이터베이스 내 존재하지 않습니다. 게시글 id : " + id));
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "게시글이 데이터베이스 내 존재하지 않습니다. 게시글 id : " + id));
         postRepository.deleteById(id);
     }
 }
